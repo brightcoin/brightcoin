@@ -2,6 +2,7 @@
 #define TRANSACTIONRECORD_H
 
 #include "uint256.h"
+#include "coinparams.h"
 
 #include <QList>
 
@@ -74,7 +75,7 @@ public:
     };
 
     /** Number of confirmation needed for transaction */
-    static const int NumConfirmations = 6;
+    static const int NumConfirmations = CONFIRMATIONS;
 
     TransactionRecord():
             hash(), time(0), type(Other), address(""), debit(0), credit(0), idx(0)

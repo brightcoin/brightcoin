@@ -22,6 +22,7 @@
 #include "key.h"
 #include "script.h"
 #include "allocators.h"
+#include "coinparams.h"
 
 static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 
@@ -272,7 +273,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 48, // Brightcoin addresses start with L
+        PUBKEY_ADDRESS = ADDRESS_PREFIX, // Brightcoin addresses start with B
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,

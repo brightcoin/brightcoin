@@ -25,5 +25,11 @@
 //blocks before coins become mature
 #define MATURITY_BLOCKS	60
 
+//base58 address prefix
+#define ADDRESS_PREFIX	25
+
+//confirmations
+#define CONFIRMATIONS	6
+
 #endif
 
