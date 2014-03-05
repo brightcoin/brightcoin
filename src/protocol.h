@@ -14,11 +14,12 @@
 #include "netbase.h"
 #include <string>
 #include "uint256.h"
+#include "coinparams.h"
 
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? 19333 : 9333;
+    return testnet ? (10000 + P2PPORT) : P2PPORT;
 }
 
 
