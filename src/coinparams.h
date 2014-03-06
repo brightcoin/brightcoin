@@ -29,7 +29,14 @@
 #define ADDRESS_PREFIX	25
 
 //confirmations
-#define CONFIRMATIONS	6
+#define CONFIRMATIONS	5
+
+//premine percentage (1%)
+#define PREMINE_COINS	(unsigned int)((double)MAX_COINS * 0.01f)
+
+//for kgw
+#define DIFF_FILTER_THRESHOLD_TESTNET	8192
+#define DIFF_FILTER_THRESHOLD		8192
 
 #endif
 
