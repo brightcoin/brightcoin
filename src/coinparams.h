@@ -11,25 +11,25 @@
 
 //block reward and halving
 #define COINS_PER_BLOCK	500
-#define HALVING_HEIGHT	105000
+#define HALVING_HEIGHT	525600
 
 //difficulty retarget
-#define TARGET_TIMESPAN	60 * 60		//60 minutes
+#define TARGET_TIMESPAN	60 * 30		//30 minutes
 
 //block time
 #define TARGET_SPACING	60		//60 second block time
 
 //max number of coins
-#define MAX_COINS	250000000	//250 million coins
+#define MAX_COINS	530855493	//250 million coins
 
 //blocks before coins become mature
-#define MATURITY_BLOCKS	60
+#define MATURITY_BLOCKS	45
 
 //base58 address prefix
 #define ADDRESS_PREFIX	25
 
 //confirmations
-#define CONFIRMATIONS	6
+#define CONFIRMATIONS	5
 
 #endif
 

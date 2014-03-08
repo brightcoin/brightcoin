@@ -1071,7 +1071,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     nSubsidy >>= (nHeight / HALVING_HEIGHT); // Brightcoin: 105000 blocks in ~0.5 years
 
     if(nHeight == 1)
-        nSubsidy = 2500000 * COIN;
+        nSubsidy = 5255995 * COIN;
 
     return nSubsidy + nFees;
 }
