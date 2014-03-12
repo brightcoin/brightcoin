@@ -31,5 +31,9 @@
 //confirmations
 #define CONFIRMATIONS	5
 
+//for kgw
+#define DIFF_FILTER_THRESHOLD_TESTNET	8192
+#define DIFF_FILTER_THRESHOLD		8192
+
 #endif
 
